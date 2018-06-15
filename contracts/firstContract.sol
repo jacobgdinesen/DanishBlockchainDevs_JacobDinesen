@@ -85,9 +85,7 @@ contract firstContract {
      // PAYMENT AND ETHER TRANSFERS //
     /////////////////////////////////
 
-    function donate() public payable returns(string) {
-        return "thank you for your donation :)";
-    }
+    function donate() public payable {}
 
     function checkBalance() public view returns(uint balance){
         return address(this).balance;
