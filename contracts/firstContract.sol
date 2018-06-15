@@ -90,7 +90,7 @@ contract firstContract {
     }
 
     function checkBalance() public view returns(uint balance){
-        return this.balance;
+        return address(this).balance;
     }
 
       ///////////////////
